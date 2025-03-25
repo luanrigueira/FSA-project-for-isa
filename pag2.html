@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fundação Santo André - Links Principais</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f7fa;
+            color: #333;
+        }
+
+        /* Container geral */
+        .container {
+            width: 80%;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 30px;
+            text-align: center;
+        }
+
+        /* Cabeçalho com logo */
+        header {
+            background-color: #d1e0ec;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        header img {
+            width: 250px;
+            height: auto;
+        }
+
+        /* Links principais */
+        .links {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            margin-top: 50px;
+        }
+
+        .link-item {
+            text-decoration: none;
+            font-size: 20px;
+            color: #00457c;
+            font-weight: bold;
+            padding: 12px 30px;
+            background-color: #d1e0ec;
+            border-radius: 5px;
+            transition: background-color 0.3s, color 0.3s;
+        }
+
+        .link-item:hover {
+            background-color: #00457c;
+            color: white;
+        }
+
+        /* Rodapé */
+        footer {
+            margin-top: 50px;
+            background-color: #00457c;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        footer p {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <!-- Cabeçalho com logo -->
+        <header>
+            <img src="logo-fsa-horizontal.png" alt="Logo Fundação Santo André">
+        </header>
+
+        <!-- Links principais -->
+        <div class="links">
+            <a href="pag3.html" class="link-item" target="_blank">Clientes</a>
+            <a href="pag4.html" class="link-item" target="_blank">Produtos</a>
+            <a href="pag5.html" class="link-item" target="_blank">Sites Úteis</a>
+        </div>
+        
+        <!-- Conteúdo para os links (Clientes, Produtos, Sites Úteis) -->
+        <section id="clientes" style="margin-top: 50px;">
+            <h2>Clientes</h2>
+            <p>Informações e cadastro de clientes podem ser acessadas aqui.</p>
+        </section>
+
+        <section id="produtos" style="margin-top: 50px;">
+            <h2>Produtos</h2>
+            <p>Detalhes sobre os produtos estão disponíveis nesta seção.</p>
+        </section>
+
+        <section id="sites-uteis" style="margin-top: 50px;">
+            <h2>Sites Úteis</h2>
+            <p>Links úteis relacionados à administração pública e serviços estão listados aqui.</p>
+        </section>
+
+        <!-- Rodapé -->
+        <footer>
+            <p>&copy; 2025 Fundação Santo André - Todos os direitos reservados.</p>
+        </footer>
+    </div>
+
+</body>
+</html>

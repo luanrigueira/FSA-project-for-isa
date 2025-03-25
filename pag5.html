@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sites Úteis - Fundação Santo André</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+    <style>
+        /* Estilos gerais */
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: #f4f7fa;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        /* Cabeçalho */
+        header {
+            background-color: #003b5c;
+            color: white;
+            text-align: center;
+            padding: 40px;
+            width: 100%;
+            box-sizing: border-box;
+        }
+
+        header h1 {
+            font-size: 36px;
+            margin: 0;
+            font-weight: 500;
+        }
+
+        /* Container principal */
+        .container {
+            max-width: 1200px;
+            width: 90%;
+            margin-top: 30px;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 30px;
+            padding: 20px;
+        }
+
+        /* Estilo para cada card de link */
+        .card {
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            text-align: center;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+        }
+
+        .card a {
+            display: block;
+            font-size: 20px;
+            color: #003b5c;
+            text-decoration: none;
+            font-weight: 500;
+            margin: 15px 0;
+            transition: color 0.3s;
+        }
+
+        .card a:hover {
+            color: #007BFF;
+        }
+
+        /* Rodapé */
+        footer {
+            background-color: #003b5c;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            width: 100%;
+            margin-top: 50px;
+        }
+
+        footer p {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Cabeçalho -->
+    <header>
+        <h1>Sites Úteis</h1>
+    </header>
+
+    <!-- Container com os Links -->
+    <div class="container">
+        <div class="card">
+            <a href="https://www.santoandre.sp.gov.br" target="_blank">Prefeitura Municipal de Santo André</a>
+        </div>
+        <div class="card">
+            <a href="https://www.sp.gov.br" target="_blank">Governo do Estado de São Paulo</a>
+        </div>
+        <div class="card">
+            <a href="https://www.fazenda.sp.gov.br" target="_blank">Secretaria da Fazenda de São Paulo</a>
+        </div>
+        <div class="card">
+            <a href="https://www.gov.br/receitafederal/pt-br" target="_blank">Receita Federal do Brasil</a>
+        </div>
+        <div class="card">
+            <a href="https://www.portaltransparencia.gov.br" target="_blank">Portal da Transparência</a>
+        </div>
+        <div class="card">
+            <a href="https://www.bcb.gov.br" target="_blank">Banco Central do Brasil</a>
+        </div>
+        <div class="card">
+            <a href="https://www.gov.br" target="_blank">Governo Federal</a>
+        </div>
+    </div>
+
+    <!-- Rodapé -->
+    <footer>
+        <p>&copy; 2025 Fundação Santo André - Todos os direitos reservados.</p>
+    </footer>
+
+</body>
+</html>
